@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
   .intro__text {
-  	max-width: 720px;
+  	max-width: inherit;
   }
 }
 @media (max-width: 425px) {
