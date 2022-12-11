@@ -1,0 +1,21 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 92px auto 0;
+  max-width: 984px;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    max-width: 288px;
+  }
+}
