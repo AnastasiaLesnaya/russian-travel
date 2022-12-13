@@ -1,0 +1,18 @@
+.place {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(1% , 460px) 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  grid-gap: 48px 40px;
+  margin: 0;
+  padding: 0;
+  }
+  
+  @media (max-width: 425px) {
+    .place {
+      display: grid;
+      grid-gap: 32px;
+      grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,12 @@
+.cover__link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(42, 44, 47, 0.3);
+  padding-bottom: 245px;
+  padding-top: 245px;
+  width: 100%;
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
