@@ -1,24 +1,22 @@
 .lead__image {
-  margin: 64px auto 0;
+  margin: 64px 0 0;
+  display: block;
   max-width: 984px;
   max-height: 615px;
 }
 
 @media (max-width: 1024px) {
   .lead__image {
-    margin: 56px auto 0;
+    width: 100vw;
+    max-width: 928px;
+    margin: 56px 0 0;
   }
 }
 
-@media (max-width: 768px) {
-  .lead__image {
-    max-width: 100%;
-  }
-}
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .lead__image {
-    max-width: 100%;
+    max-width: 425px;
     margin-top: 40px;
   }
 }

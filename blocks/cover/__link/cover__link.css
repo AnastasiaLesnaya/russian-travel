@@ -3,15 +3,13 @@
   padding: 0;
   text-decoration: none;
   color: #ffffff;
-  padding-bottom: 245px;
-  padding-top: 245px;
   width: 100%;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +20,7 @@
 
 .cover__link::before {
   content: "";
-  background-color: rgba(42, 44, 47);
+  background-color: rgb(42, 44, 47);
   opacity: 0.3;
   transition: opasity 0.3s linear;
   display: block;

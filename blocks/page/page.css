@@ -14,12 +14,6 @@
   text-rendering: optimizeLegibility;
 }
 
-@media (min-width: 1025px) and (max-width: 1279px) {
-  .page {
-    width: 100vw;
-  }
-}
-
 @media (max-width: 425px) {
   .page {
     width: 100vw;
