@@ -16,10 +16,17 @@
 
 @media (max-width: 768px) {
   .lead__title {
-    max-width: 100%;
+    max-width: 100vw;
     min-height: 200px;
   }
-  
+}
+
+@media (max-width: 720px) {
+  .lead__title {
+    width: 90vw;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }
 
 @media (max-width: 425px) {

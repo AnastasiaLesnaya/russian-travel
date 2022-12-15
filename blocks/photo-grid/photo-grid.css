@@ -9,6 +9,7 @@
 
 @media (max-width: 1024px) {
   .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 100vw;
     max-width: 928px;
     grid-gap: 14px;
@@ -18,18 +19,19 @@
 
 @media (max-width: 768px) {
   .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     max-width: 720px;
     grid-gap: 16px;
-    padding: 0 24px;
     margin-top: 88px;
+    justify-items: center;
   }
 }
 
 @media (max-width: 425px) {
   .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     max-width: 288px;
     grid-gap: 12px;
-    padding: 0 16px;
     margin: 64px auto 0;
   }
 }

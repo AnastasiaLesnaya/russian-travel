@@ -1,6 +1,5 @@
 .footer {
   max-width: 1184px;
-  max-height: 18px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,14 +9,27 @@
   padding-bottom: 24px;
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    margin: 88px auto 0;
+  }
+}
+
 @media (max-width: 425px) {
   .footer {
-    margin-left: 0;
+    margin: 64px 0;
     max-width: 186px;
-    max-height: 310px;
     flex-direction: column;
-    align-self: flex-start;
+    align-items: flex-start;
     justify-items: flex-start;
+    padding-left: 16px;
   }
   
 }

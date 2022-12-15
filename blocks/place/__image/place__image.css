@@ -3,6 +3,7 @@
   max-height: 460px;
   margin: 0;
   padding: 0;
+  object-fit: contain;
 }
 
 @media (max-width: 1024px) {
