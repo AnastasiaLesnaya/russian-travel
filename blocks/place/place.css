@@ -24,10 +24,10 @@
     }
   }
   
-  @media (max-width: 425px) {
+  @media (max-width: 582px) {
     .place {
-      grid-gap: 32px;
       grid-template-columns: 1fr;
       max-width: 100%;
+      grid-gap: 32px;
+    }
   }
-}
