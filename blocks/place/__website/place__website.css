@@ -8,7 +8,7 @@
   width: 90%;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 582px) {
   .place__website {
     margin: 0 auto;
   }
